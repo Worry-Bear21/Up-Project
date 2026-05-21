@@ -17,7 +17,7 @@
         </div>
 
         <div>
-            <img src="../assets/images/" alt="">
+            <img src="../assets/images/picture" alt="">
         </div>
     </div>
 </template>

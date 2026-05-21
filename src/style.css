@@ -15,6 +15,9 @@
 #storybtn {
  gap: 5px;
  margin-left: 5px;
+ margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 #Story {

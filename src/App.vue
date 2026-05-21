@@ -2,12 +2,14 @@
 import NavBar from './components/NavBar.vue';
 import Menu from './components/Menu.vue';
 import Story from './components/Story.vue';
+import Catering from './components/Catering.vue';
 
 export default {
   components: {
     Menu,
     NavBar,
     Story,
+    Catering,
 
   },
   data() {
@@ -27,5 +29,6 @@ export default {
   <NavBar @goTo="changePage" :activePage="currentPage" />
   <Menu v-if="currentPage === 'Menu'"/>
   <Story v-if="currentPage === 'Story'" />
+  <Catering v-if="currentPage === 'Catering'" />
 
 </template>

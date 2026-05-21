@@ -18,7 +18,7 @@
 
         <div id="storypic">
             <img id="storyimg" src="../assets/images/dols.png" alt="">
-            <img src="../assets/images/" alt="">
+            <img id="storyimg" src="../assets/images/doesnt.png" alt="">
         </div>
     </div>
 </template>

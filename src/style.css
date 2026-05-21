@@ -1,10 +1,24 @@
+#Catering {
+  display: flex;
+  justify-content: center;
+  background-color: #F9F6F0;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  color: rgb(32, 173, 228);
+  font-weight: 900;
+  
+}
 #storypic{
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 #storyimg{
-  width: 80rem;
-  height: 70rem;
+ margin-top: 20px;
+ align-items: center;
+ border-radius: 5rem;
+ padding: 10rem;
 }
 #All {
   gap: 20px;
@@ -168,7 +182,7 @@
 }
 
 #Hero {
-  background-color: rgb(223, 216, 216);
+  background-color: #F9F6F0;
   height: 300rem;
   box-sizing: border-box;
 }

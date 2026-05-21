@@ -1,0 +1,903 @@
+#All {
+  border: 2px solid blue;
+  gap: 20px;
+}
+
+#storybtn {
+ 
+}
+
+#Story {
+  display: flex;
+  justify-content: center;
+}
+
+#Compress {
+  display: flex;
+  width: 80rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  height: 35rem;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+#instabtn {
+  height: 250px;
+  font-size: large;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: rgb(32, 173, 228);
+  margin-top: 5px;
+  border: none;
+}
+
+#instabtn:hover {
+  background-color: rgb(32, 173, 228);
+  color: white;
+  transform: scale(1.05);
+}
+
+#Third {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  height: 34rem;
+  margin-top: 14rem;
+}
+
+#Explore {
+  border: 3px solid slateblue;
+  height: 15rem;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+#Second {
+  display: flex;
+  gap: 5px;
+  box-sizing: border-box;
+}
+
+#Join {
+  margin-top: 50px;
+  display: flex;
+  margin-left: 30px;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 15px;
+  background-color: rgb(32, 173, 228);
+  color: white;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+}
+
+#Find {
+  margin-top: 5px;
+  display: flex;
+  margin-left: 20px;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 15px;
+  background-color: #8B2323;
+  color: white;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#Golden {
+  font-size: medium;
+  color: black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#Expect {
+  padding: 5px;
+  border: 2px solid rgb(32, 173, 228);
+  width: 20rem;
+  margin-left: 20px;
+  color: black;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 15rem;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 15rem;
+}
+
+#choice {
+
+  width: 20rem;
+  margin-left: 20px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+#footer {
+  border: 2px solid black;
+  background-color: rgb(32, 173, 228);
+  height: 40rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+#Context {
+  margin-top: 0;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#Hero {
+  background-color: rgb(223, 216, 216);
+  height: 300rem;
+  box-sizing: border-box;
+}
+
+#NavBar {
+  z-index: 50;
+  width: 100%;
+  padding: 3px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#NavCon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#NavMenu {
+  display: flex;
+  gap: 20px;
+  margin-top: 5px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#NavText {
+  font-size: 20px;
+  height: 20px;
+  padding: 4px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+}
+
+#NavText:hover {
+  background-color: rgb(32, 173, 228);
+  color: white;
+  transform: scale(1.05);
+}
+
+
+#Btn {
+  color: white;
+  font-size: 20px;
+  height: 20px;
+  padding: 4px;
+  margin-left: 20px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #8B2323;
+  border: none;
+}
+
+#Btn:hover {
+  transform: scale(0.9);
+}
+
+#Logo {
+  width: 170px;
+  height: auto;
+}
+
+#picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+#HeroText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#Day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 50px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#container1,
+#container2,
+#container3,
+#container4,
+#Plate1,
+#Plate2,
+#Plate3,
+#Plate4,
+#Bowl1,
+#Bowl2,
+#Bowl3,
+#Bowl4,
+#Biscuit1,
+#Biscuit2,
+#Biscuit3,
+#Biscuit4,
+#Side1,
+#Side2,
+#Side3,
+#Side4,
+#Kids1,
+#Kids2,
+#Kids3,
+#Kids4,
+#Kape1,
+#Kape2,
+#Kape3,
+#Kape4,
+#Juice1,
+#Juice2,
+#Juice3,
+#Juice4,
+.inside-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  color: rgb(216, 208, 208);
+  height: 280px;
+  box-sizing: border-box;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+#container1 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/350b3774-f0bc-4415-bfc7-d491f92f64ab/menu+card.png?format=500w');
+  background-color: #ccc;
+
+}
+
+#container1:hover {
+  transform: scale(1.1);
+}
+
+#container2 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/4b3ac301-fcdf-4205-920c-0a509d1e7cac/menu+card-1.png?format=500w');
+  background-color: #ccc;
+}
+
+#container2:hover {
+  transform: scale(1.1);
+}
+
+#container3 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/df6aab41-3c84-46bd-b30b-cbd72e83515d/menu+card-2.png?format=500w');
+  background-color: #ccc;
+}
+
+#container3:hover {
+  transform: scale(1.1);
+}
+
+#container4 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/044f0eb0-f32b-41a3-ba98-a4244edc7450/menu+card-3.png?format=500w');
+  background-color: #ccc;
+}
+
+#container4:hover {
+  transform: scale(1.1);
+}
+
+
+#Plate1 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/1f8504f6-dfed-41ab-becc-8a57aaf60d7c/menu+card-4.png?format=500w');
+  background-color: #ccc;
+}
+
+#Plate1:hover {
+  transform: scale(1.1);
+}
+
+#Plate2 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/44cda803-0138-4875-9afb-849b6354217d/menu+card-5.png?format=500w');
+  background-color: #ccc;
+}
+
+#Plate2:hover {
+  transform: scale(1.1);
+}
+
+#Plate3 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/8401af15-0364-4230-931e-ae9d500bfdc0/menu+card-6.png?format=500w');
+  background-color: #ccc;
+}
+
+#Plate3:hover {
+  transform: scale(1.1);
+}
+
+
+#Plate4 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/f8151374-7c4e-49df-be78-41c6bc8f9072/menu+card-7.png?format=500w');
+  background-color: #ccc;
+}
+
+#Plate4:hover {
+  transform: scale(1.1);
+}
+
+#Bowl1 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/622da070-dae9-42f2-8646-fc9475dae4de/GritsBowl.jpg?format=500w');
+  background-color: #ccc;
+}
+
+#Bowl1:hover {
+  transform: scale(1.1);
+}
+
+
+#Bowl2 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/69107234-8cf3-407e-b425-3f2e8765e235/menu+card-12.png?format=500w');
+  background-color: #ccc;
+}
+
+#Bowl2:hover {
+  transform: scale(1.1);
+}
+
+#Bowl3 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/ac81dc6e-f5b9-4652-8962-511c6b0dfbfe/HashBowl.jpg?format=500w');
+  background-color: #ccc;
+}
+
+#Bowl3:hover {
+  transform: scale(1.1);
+}
+
+#Bowl4 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/a4b45082-0dae-4b54-8ec0-c283a0773dfb/Waffles_SweetGrace_NewBlue.jpg?format=500w');
+  background-color: #ccc;
+}
+
+#Bowl4:hover {
+  transform: scale(1.1);
+}
+
+#Biscuit1 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/fafe762a-9b9f-483f-9d53-cf6db1db4544/menu+card-13.png?format=500w');
+  background-color: #ccc;
+}
+
+#Biscuit1:hover {
+  transform: scale(1.1);
+}
+
+#Biscuit2 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/65a8a98f-5c20-4fe5-bc30-ce6d4a8a6c88/menu+card-14.png?format=500w');
+  background-color: #ccc;
+}
+
+#Biscuit2:hover {
+  transform: scale(1.1);
+}
+
+#Biscuit3 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/0ee00368-b4ca-455e-9018-78bb11af25c5/menu+card-15.png?format=500w');
+  background-color: #ccc;
+}
+
+#Biscuit3:hover {
+  transform: scale(1.1);
+}
+
+#Biscuit4 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/6140fc88-3439-41a2-ba91-c21c1c64bc36/menu+card-16.png?format=500w');
+  background-color: #ccc;
+}
+
+#Biscuit4:hover {
+  transform: scale(1.1);
+}
+
+#Side1 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/a0c4e126-4335-4642-a241-5a7ac32e585f/menu+card-17.png?format=500w');
+  background-color: #ccc;
+}
+
+#Side1:hover {
+  transform: scale(1.1);
+}
+
+#Side2 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/e59919d1-41b1-4d40-894f-a636f992f866/menu+card-18.png?format=500w');
+  background-color: #ccc;
+}
+
+#Side2:hover {
+  transform: scale(1.1);
+}
+
+#Side3 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/e62d1ddd-2c23-4c0d-89b4-5f43b3ee3dfc/menu+card-19.png?format=500w');
+  background-color: #ccc;
+}
+
+#Side3:hover {
+  transform: scale(1.1);
+}
+
+#Side4 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/47b64945-f42c-4bcc-9dc8-03131680c8ba/menu+card-20.png?format=500w');
+  background-color: #ccc;
+}
+
+#Side4:hover {
+  transform: scale(1.1);
+}
+
+#Kids1 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/943a8af9-7485-4d1d-9da4-7abb94290e1b/Kids_LittleGrace.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Kids1:hover {
+  transform: scale(1.1);
+}
+
+#Kids2 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/c3d9ad39-2f06-49bd-bee0-1c54a3bbf7f4/Kids_EggandBiscuit.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Kids2:hover {
+  transform: scale(1.1);
+}
+
+#Kids3 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/7e61041a-dbe8-4b88-a82b-7d02c8052604/Kids_TendersandBiscuit.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Kids3:hover {
+  transform: scale(1.1);
+}
+
+#Kids4 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/8401af15-0364-4230-931e-ae9d500bfdc0/menu+card-6.png?format=500w');
+  background-color: #ccc;
+}
+
+#Kids4:hover {
+  transform: scale(1.1);
+}
+
+#Kape1 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/d1e9baa8-e4d3-49ef-96a3-08b7b7957d35/Core_americano.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Kape1:hover {
+  transform: scale(1.1);
+}
+
+#Kape2 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/6dc71ce9-fd9b-4ed7-a0f6-06e44522522a/Coffee_CaramelMocha.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Kape2:hover {
+  transform: scale(1.1);
+}
+
+#Kape3 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/22e44bfe-c862-4565-82a1-1911897f7874/Coffee_ColdBrew_.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Kape3:hover {
+  transform: scale(1.1);
+}
+
+#Kape4 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/053f0ac8-1b05-451c-b06e-3b8706051eea/Core_CarmToffeeCrunch.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Kape4:hover {
+  transform: scale(1.1);
+}
+
+#Juice1 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/0da83968-9405-49cf-a656-c32891c348f6/Drinks_OrangeJuice.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Juice1:hover {
+  transform: scale(1.1);
+}
+
+#Juice2 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/8bfd66ce-2494-4a71-8d4f-4b52e349da4e/Drinks_Lemonade.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Juice2:hover {
+  transform: scale(1.1);
+}
+
+#Juice3 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/464dd2fb-9d85-438a-8e58-ab4af8311df9/Drinks_Tea.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Juice3:hover {
+  transform: scale(1.1);
+}
+
+#Juice4 {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/6489967520aa207907d79f3f/838d4f71-70cf-43d4-941d-0345cf2383dd/Coffee_PeachBerryLemonade.jpg?format=750w');
+  background-color: #ccc;
+}
+
+#Juice4:hover {
+  transform: scale(1.1);
+}
+
+#Menu {
+  font-size: 40px;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Tablet ≤ 1024px ======================================*/
+@media (max-width: 1024px) {
+  #Context {
+    margin-top: 10px;
+    color: rgb(16, 16, 16);
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  #Hero {
+    background-color: rgb(238, 233, 233);
+  }
+
+  #NavBar {
+    background-color: black;
+  }
+
+  #NavText {
+    background-color: rgb(39, 37, 37);
+    color: white;
+  }
+
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Mobile ≤ 768px → 2 column============================= */
+@media (max-width: 768px) {
+  #NavBar {
+    background-color: rgb(34, 213, 10);
+  }
+
+  #NavMenu {
+    gap: 5px;
+  }
+
+  #NavText {
+    font-size: 15px;
+    border: 2px solid green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #Btn {
+    font-size: 15px;
+    background-color: rgb(240, 228, 8);
+    border: 2px solid green;
+  }
+
+  #Logo {
+    width: 150px;
+  }
+
+  #picture {
+    width: 80%;
+    margin: 100px auto 0;
+  }
+
+  #Day {
+    font-size: 30px;
+    width: auto;
+    margin-left: 0;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 350px;
+  }
+
+  #Compress {
+    display: flex;
+    width: 80rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    height: 35rem;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+
+  #instabtn {
+    height: 250px;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: rgb(32, 173, 228);
+    margin-top: 5px;
+    border: none;
+  }
+
+  #Third {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    height: 34rem;
+    margin-top: 14rem;
+  }
+
+  #Explore {
+    border: 3px solid slateblue;
+    height: 15rem;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+
+  #Second {
+    display: flex;
+    gap: 5px;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+
+  #Join {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 30px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 15px;
+    background-color: rgb(32, 173, 228);
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  #Find {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 15px;
+    background-color: #8B2323;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  #Golden {
+    font-size: medium;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  #Expect {
+    padding: 5px;
+    border: 2px solid rgb(32, 173, 228);
+    width: 30rem;
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #choice {
+
+    width: 20rem;
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  #footer {
+    border: 2px solid black;
+    background-color: rgb(32, 173, 228);
+    height: 40rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    box-sizing: border-box;
+  }
+}
+
+/* Small Mobile ≤ 640px → 1 column =================================*/
+@media (max-width: 640px) {
+  #Context {
+    margin-top: 10px;
+    color: rgb(248, 10, 10);
+    font-weight: bolder;
+    font-size: 15px;
+  }
+
+  #NavBar {
+    background-color: rgb(247, 11, 180);
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #NavCon {
+    border: 2px solid green;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+
+  }
+
+  #NavText {
+    font-size: 10px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+  }
+
+  #Btn {
+    font-size: 10px;
+    background-color: rgb(25, 25, 24);
+
+    padding: 2px 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+
+  #Logo {
+    width: 120px;
+    height: auto;
+  }
+
+  #picture {
+    width: 60%;
+    margin: 100px auto 0;
+    box-sizing: border-box;
+  }
+
+  #Day {
+    font-size: 20px;
+    color: green;
+    text-align: center;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 260px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #container1,
+  #container2,
+  #container3,
+  #container4,
+  #Plate1,
+  #Plate2,
+  #Plate3,
+  #Plate4,
+  #Bowl1,
+  #Bowl2,
+  #Bowl3,
+  #Bowl4,
+  #Biscuit1,
+  #Biscuit2,
+  #Biscuit3,
+  #Biscuit4,
+  #Side1,
+  #Side2,
+  #Side3,
+  #Side4,
+  #Kids1,
+  #Kids2,
+  #Kids3,
+  #Kids4,
+  #Kape1,
+  #Kape2,
+  #Kape3,
+  #Kape4,
+  #Juice1,
+  #Juice2,
+  #Juice3,
+  #Juice4,
+  .inside-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(216, 208, 208);
+    height: 280px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+}

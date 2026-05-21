@@ -638,14 +638,14 @@
 
   #NavText {
     font-size: 15px;
-    border: 2px solid green;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   #Btn {
     font-size: 15px;
     background-color: rgb(240, 228, 8);
-    border: 2px solid green;
+   
   }
 
   #Logo {

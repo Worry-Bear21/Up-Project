@@ -16,7 +16,8 @@
             <button id="All">DRINKS</button>
         </div>
 
-        <div>
+        <div id="storypic">
+            <img id="storyimg" src="../assets/images/dols.png" alt="">
             <img src="../assets/images/" alt="">
         </div>
     </div>

@@ -1,3 +1,11 @@
+#storypic{
+  display: flex;
+  justify-content: center;
+}
+#storyimg{
+  width: 80rem;
+  height: 70rem;
+}
 #All {
   gap: 20px;
   font-size: 15px;
@@ -23,7 +31,7 @@
 #Story {
   display: flex;
   justify-content: center;
-  background-color: rgb(223, 216, 216);
+  background-color: #F9F6F0;
   flex-direction: column;
   
 }

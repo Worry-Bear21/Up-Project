@@ -187,11 +187,13 @@
 }
 
 #NavText {
-  font-size: 20px;
-  height: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  height: 17px;
   padding: 4px;
   border-radius: 3px;
-  font-weight: bold;
+  font-weight: 900;
+  align-items: center;
   cursor: pointer;
   background-color: white;
 }

@@ -15,6 +15,5 @@
             <button id="All">COFFEE</button>
             <button id="All">DRINKS</button>
         </div>
-
     </div>
 </template>

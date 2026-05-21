@@ -15,5 +15,9 @@
             <button id="All">COFFEE</button>
             <button id="All">DRINKS</button>
         </div>
+
+        <div>
+            <img src="../assets/images/" alt="">
+        </div>
     </div>
 </template>

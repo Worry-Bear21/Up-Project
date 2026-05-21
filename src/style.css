@@ -1,3 +1,15 @@
+#Order{
+  color:white;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: red;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#Order:hover {
+  transform: scale(1.1);
+}
+
 #Catering {
   display: flex;
   justify-content: center;
@@ -175,10 +187,17 @@
 }
 
 #Context {
-  margin-top: 0;
+  margin-top: 12rem;
   color: white;
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 35px;
+}
+#ContextCat {
+  margin-top: 12rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+
 }
 
 #Hero {
@@ -321,6 +340,10 @@
 #Juice2,
 #Juice3,
 #Juice4,
+#Break1,
+#Break2,
+#Break3,
+#Break4,
 .inside-container {
   background-repeat: no-repeat;
   background-size: cover;
@@ -626,6 +649,41 @@
 }
 
 #Juice4:hover {
+  transform: scale(1.1);
+}
+#Break1 {
+  background-image: url('https://www.chick-fil-a.com/wp-content/uploads/sites/2/2025/06/minisTray_lg_PDP_Desk.png');
+  background-color: #ccc;
+}
+
+#Break1:hover {
+  transform: scale(1.1);
+}
+
+#Break2 {
+  background-image: url('https://www.chick-fil-a.com/wp-content/uploads/sites/2/2025/06/0000s0000_stack6200000_cfa160560_biscuit_chicken_prod21551240px.png?resize=1024,1024');
+  background-color: #ccc;
+}
+
+#Break2:hover {
+  transform: scale(1.1);
+}
+
+#Break3 {
+  background-image: url('https://www.chick-fil-a.com/wp-content/uploads/sites/2/2025/06/CFA2301007_Smmr23_SpicyChickBiscuit_Dots_Beauty1_White_0274_416x324.png');
+  background-color: #ccc;
+}
+
+#Break3:hover {
+  transform: scale(1.1);
+}
+
+#Break4 {
+  background-image: url('https://www.chick-fil-a.com/wp-content/uploads/sites/2/2025/06/Bacon_Biscuit.png?resize=744,744');
+  background-color: #ccc;
+}
+
+#Break4:hover {
   transform: scale(1.1);
 }
 
